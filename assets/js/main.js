@@ -251,11 +251,9 @@ const divImageElement = document.createElement('img');
 btn[0].addEventListener('click', (e) => {
 
     // https://www.w3schools.com/jsref/met_node_removechild.asp
-
+    //https://www.youtube.com/watch?v=1TKmZlAekGA
 
     console.log(listDiv);
-
-
 
     console.log(divImageElement)
 
@@ -268,7 +266,7 @@ btn[0].addEventListener('click', (e) => {
     // https://www.w3schools.com/jsref/met_node_appendchild.asp
 
     listDiv.appendChild(divImageElement);
-    listDiv.removeChild(listDiv.removechildNodes[0]);
+    //listDiv.removeChild(listDiv.removechildNodes[1]);
 });
 
 
